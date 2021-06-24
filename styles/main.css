@@ -1,0 +1,95 @@
+body, html {
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    background-color: #BBBBBB;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* ---------- HEADER ---------- */
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+#header h1 {
+    font-size: 48px;
+    font-family: Tahoma;
+}
+
+
+/* ---------- NAV ---------- */
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    height: 100px;
+}
+
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Tahoma;
+}
+
+#nav a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+/* ---------- MAIN ---------- */
+#main {
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* ---------- IMG-SECTION ---------- */
+
+#img-section {
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+}
+
+#img-section img {
+    width: 110%;
+}
+
+/* ---------- MAIN-SECTION ---------- */
+
+#main-section {
+    background-color: #999999;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -150px;
+}
+
+#main-section h2 {
+    font-size: 32px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+#main-section p {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

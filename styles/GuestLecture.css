@@ -1,0 +1,13 @@
+#main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#main-section figure {
+    height: 200px;
+    width: 400px;
+}
+
+#main-section-images {
+    margin-top: 80px;
+}
