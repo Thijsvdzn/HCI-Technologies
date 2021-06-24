@@ -3,6 +3,7 @@
     <head>
         <title>HCI Technologies Thijs van Deurzen</title>
         <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <link rel="stylesheet" type="text/css" href="../styles/ARVR.css">
     </head>
     <body>
         <header id="header">
@@ -29,7 +30,123 @@
             
             <section id="main-section">
                 <h2>AR/VR Topic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Voor het onderwerp AR/VR heb ik een opdracht moeten maken in Unreal Engine, een opdracht in A-frame en een topic assignment over AR/VR.</p>
+                
+                <h3>Unreal Engine</h3>
+                <p>Als eerste heb ik een banaan model en texture geïmporteerd. Hierna heb ik het model in Unreal Engine gezet</p>
+                <figure>
+                    <img src="../images/ARVR1.png" alt="Banaan in de viewport" />
+                </figure>
+                
+                <p>Daarna heb ik de texture van de banaan op het model gezet. Dit het ik gedaan in de Material Editor door middel van nodes (zie de foto om te zien wat nodes zijn)</p>
+                <figure>
+                    <img src="../images/ARVR2.png" alt="Banaan texture met nodes" />
+                </figure>
+                
+                <figure>
+                    <img src="../images/ARVR3.png" alt="Banaan met texture in de viewport" />
+                </figure>
+                
+                <p>Hierna was het de opdracht om de banaan rond te laten draaien op een 'turntable'. Dit heb ik gedaan door middel van een blueprint</p>
+                <figure>
+                    <img src="../images/ARVR4.png" alt="Banaan op de turntable" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR5.png" alt="De event graph van de ronddraaiende banaan" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR6.png" alt="De banaan op de turntable in de viewport" />
+                </figure>
+                
+                <p>Hieronder een filmpje van het eindresultaat:</p>
+                <iframe src="https://youtu.be/rJiP854_2T8"></iframe>
+                
+                <h3>Advanced Unreal Engine</h3>
+                <p>Om nog meer te verdiepen in AR/VR heb ik nog geavanceerde opdrachten gedaan in Unreal Engine. Het doel van deze opdracht is om een hele simpele game te maken. De speler is een rood blokje en die moet bananen verzamelen. Zo ziet het project er uit zonder dat ik iets heb gedaan:</p>
+                <figure>
+                    <img src="../images/ARVR_Advanced1.png" alt="Advanced start" />
+                </figure>
+                
+                <p>Hierna ben ik de speler gaan maken. Het design is heet simpel, een rood doosje namelijk. Ook moest ik de controls van de speler maken. Dit moest via de settings van Unreal Engine zelf, en weer via nodes zoals in de eerste opdracht. Ook moest de collision met de muren gemaakt worden zodat het rode blokje niet zomaar het veld uit vliegt.</p>
+                <figure>
+                    <img src="../images/ARVR_Advanced2.png" alt="Rood blokje" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR_Advanced6.png" alt="Controls" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR_Advanced7.png" alt="Controls 2" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR_Advanced8.png" alt="Controls 3" />
+                </figure>
+                <iframe src="https://youtu.be/_J4yUyk1s9A"></iframe>
+                
+                <p>Hierna moesten de settings van het speelveld goed worden gezet en de speler moest op het veld terecht komen</p>
+                <figure>
+                    <img src="../images/ARVR_Advanced4.png" alt="Speelveld settings" />
+                </figure>
+                <figure>
+                    <img src="../images/ARVR_Advanced5.png" alt="Speler op het veld" />
+                </figure>
+                
+                <p>Na alles af te hebben gemaakt voor de speler moeten we het veld vullen met bananen (die ronddraaien zoals bij de vorige opdracht). Het eindresultaat is te zien in deze video:</p>
+                <iframe src="https://youtu.be/iBW6-ddDSPI"></iframe>
+                
+                <h3>A-Frame opdrachten</h3>
+                <p>Om nog meer over AR/VR te leren heb ik een aantal opdracht moeten maken met A-Frame. Dit is een library die je kan inzetten in je html website.</p>
+                <p>De eerste opdracht was een introductie opdracht. Van te voren waren er al een aantal vormen geplaatst.</p>
+                <figure>
+                    <img src="../images/ARVR_AFram1.png" alt="Vormen" />
+                </figure>
+                
+                <p>De tweede opdracht was om zelf een aantal vormen te gaan plaatsen. Hierbij had ik zelf veel vrijheid in welke vormen, kleur, grootte en veel meer.</p>
+                <figure>
+                    <img src="../images/ARVR_AFrame2.png" alt="Zelfgeplaatste vormen" />
+                </figure>
+                
+                <p>Voor de derde opdracht heb ik textures toegevoegd aan de vormen die op het veld staan. Dit zijn een boomstronk en gras.</p>
+                <figure>
+                    <img src="../images/ARVR_AFrame3.png" alt="Textures" />
+                </figure>
+                
+                <p>Voor de vierde en laatste opdracht moest ik ervoor zorgen dat de boomstronken rond gingen draaien.</p>
+                <iframe src="https://youtu.be/X9gZ7RDOftI"></iframe>
+                
+                <h3>Topic Assignment</h3>
+                <p>Als laatste opdracht voor AR/VR heb ik een topic assignment moeten doen. Voor het eerste deel van deze topic assignment beschrijf ik drie concepten voor een VR/AR installatie die te maken hebben met een van de onderwerpen.</p>
+                
+                <h4>Onderwerp 1: Cars, car technology, road construction and / or infrastructure</h4>
+                <p>Een auto heeft normaal een display waar allemaal info op staat zoals de snelheid en alle lichtjes voor als er iets kapot gaat. In plaats hiervan zou er een AR oplossing komen door middel van een heads up display. Dit zou op het raam net boven het stuur geprojecteerd worden. Hierop staat de snelheid, de maximale snelheid, en navigatie aanwijzingen. De navigatie zit in veel auto’s in het midden van het dashboard dus dit is dan ook overbodig.</p>
+                <figure>
+                    <img src="../images/TopicAssignmentARVR1.png" alt="Eerste onderwerp Topic Assignment" />
+                </figure>
+                
+                <h4>Onderwerp 2: Sports / health lifestyle</h4>
+                <p>Als voorbeeld neem ik hardlopen op een atletiekbaan. Wanneer iemand gaat hardlopen op de atletiekbaan (of op de weg) dan kunnen zij een AR bril opzetten. Wanneer ze deze opzetten dan zien zij allemaal verschillende data (dit kunnen ze zelf samenstellen wat ze willen zien). Voorbeelden van wat je kan zien is je snelheid in km/h, stappen per minuut, hartslag etcetera. Dit kan ook in de vorm van een duikbril, omdat sommige mensen aan sprinten doen en dan ook deze data willen gebruiken, terwijl zij zo gestroomlijnd mogelijk zijn.</p>
+                <figure>
+                    <img src="../images/TopicAssignmentARVR2.png" alt="Tweede onderwerp Topic Assignment" />
+                </figure>
+                
+                <h4>Onderwerp 3: Healthcare</h4>
+                <p>Voor healthcare zou Serious Gaming ingezet kunnen worden. Hier kunnen chirurgen oefenen voor een operatie. Hoe het werkt is dat een chirurg een VR bril opzet en een simulatie ingaat. Deze simulatie is een operatie die zij in de komende dagen in het echt moeten uitvoeren. In de VR simulatie doen zij deze operatie vanaf het begin tot het einde, en kunnen ze feedback krijgen wanneer er iets fout gaat. Hierdoor zijn zij perfect voorbereid op de echte operatie.</p>
+                <figure>
+                    <img src="../images/TopicAssignmentARVR3.png" alt="Derde onderwerp Topic Assignment" />
+                </figure>
+                
+                <p>Naast deze concepten heb ik ook een onderzoek moeten doen naar een aantal al bestaande AR/VR projecten.</p>
+                
+                <h4>Project 1: Sounds in space</h4>
+                <p>Dit project komt van de <a href="https://experiments.withgoogle.com/sounds-in-space">Google Creative Lab.</a> Sounds in space in een experiment met locatie gebaseerde audio AR. Je gebruikt een mobiel device om van te voren opgenomen geluiden in specifieke locaties te plaatsen. Dan kan de gebruiker door die omgeving navigeren en transformeren wat ze in de ruimte horen. </p>
+                <p>Een voorbeeld van een project met Sounds in space is <a href="https://vimeo.com/393792407">Wet Matter</a>. 'Wet Matter', 2020 is een augmented reality ervaring die de belichaamde ervaring van optreden overbrugt met de daad van getuige zijn. Gebaseerd op het begrip van de kunstenaar dat het lichaam zowel fysiek als metaforisch poreus is - continu met de vloeiende wereld om ons heen - bestaat het werk uit een muurschildering, wolkenpunten, tentoonstellingsmeubilair en ongeveer 140 geluiden variërend van vogelgeluiden. opnames tot gesproken monologen die kunnen worden ervaren door het dragen van een koptelefoon en een harnas voorzien van een Smartphone.</p>
+                
+                <h4>Project 2: Immersiv.io</h4>
+                <p><a href="https://www.immersiv.io/">Immersive.io</a> is een bedrijf die de volgende generatie meeslepende oplossingen ontwerpen en ontwikkelen om fans volledige controle te geven over hun live-ervaring en op geheel nieuwe manieren van sport te genieten. Immersive.io creëren gedenkwaardige interactieve ervaringen voor de sportindustrie (inclusief eSport), gebruikmakend van de nieuwste augmented reality-frameworks, machine learning en computervisie, op zowel mobiele als slimme brillen. </p>
+                <p>Een voorbeeld van een project van immersive.io is hun oplossing tijdens de <a href="https://www.immersiv.io/portfolio/formula-1-tf1-project/">2018 editie van Vivatechnologie</a>. Slechts een dag voor de Grand Prix van Monaco bood hun team een exclusieve AR-ervaring op mobiel en tablet voor Formule 1-fans. Bezoekers konden de racebaan op een salontafel in augmented reality op een tafelblad weergeven. Ze konden in realtime de posities van alle piloten, hun klassement en rondetijden volgen en een beter inzicht krijgen in de baanindeling dankzij een 3D-weergave. </p>
+                
+                <h4>Project 3: Serious gaming for prisoners</h4>
+                <p><a href="https://epale.ec.europa.eu/en/blog/real-life-project-serious-gaming-prisoners">RealLife</a> is een innovatief project waarin serious gaming en virtual reality worden gebruikt om vaardigheden die nodig zijn in de 21e eeuw en vaardigheden die nodig zijn voor inzetbaarheid te verbeteren, gericht op mensen aan de rand van de samenleving, met name gedetineerden. Het trainen van vaardigheden in een veilige en virtuele realiteit helpt gedetineerden om in het echte leven te functioneren, geeft hen nieuwe vaardigheden en vergroot hun gevoel voor initiatief.</p>
+                <p>Het doel van het project is om een innovatief hulpmiddel te ontwikkelen, het Real Life-spel met een certificaat dat het proces van informeel leren valideert, dat plaatsvindt tijdens het spelen van het spel. Real Life zal een krachtig instrument ontwerpen voor kansarme groepen door zeven pilots uit te voeren in zes Europese landen met 80 gevangenen, 14 mentoren en 35 gevangenisbewakers. De focus ligt op verschillende groepen, jongeren tussen 17 en 23 jaar, vrouwen en (oudere) mannen.</p>
             </section>
         </main>
     </body>
