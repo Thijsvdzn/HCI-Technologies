@@ -29,45 +29,69 @@
             </section>
             
             <section id="main-section">
-                <h2>Project HCI Technologies</h2>
-                <h3>Concept</h3>
-                <p>Ik heb dit project samen gedaan met Mees Overbeek. Ons concept is een robot met een hartslag door middel van een ballon en/of een hydraulische pomp. Maar de robot heeft alleen maar een hartslag als alle condities voldoen. De condities zijn: Niemand is dichtbij, het is niet te nat en het is warm genoeg. Halverwege het proces hebben we besloten de robot een kikker uiterlijk te geven.</p>
+                <h2>Lab weken HCI Technologies</h2>
+                <h3>1. Concept</h3>
+                <p>Dit project heb ik samen gemaakt met Mees Overbeek. Op de eerste dag van de lab weken zijn wij na gaan denken over wat voor artificial creature wij willen maken. Een van de eerst concepten die wij hebben bedacht is artificial creature die ademt door middel van een ballon of een hydraulische pomp. Wij zijn hierna gaan nadenken over hoe wij dit willen realiseren en hoe wij het echt een artificial creature kunnen maken. Wij hebben toen bedacht dat wij een kikker gaan maken met een hartslag die je kan zien en horen wanneer de kikker niet in een winterslaap is. Maar de kikker gaat in een winterslaap, en zijn hartslag stopt dan dus ook, wanneer er bepaalde condities niet worden voldaan. Als gebruiker wil je natuurlijk dat je kikker wakker blijft en wil je er dus voor zorgen dat de het hart van de kikker blijft kloppen.
+                <br/> <br/>
+                Ook hebben wij nagedacht over hoe ons project gedefinieerd kan worden als een artificial creature. Ten eerste omdat onze kikker een soort huisdier is waar iemand voor kan zorgen wanneer zij dit willen of nodig hebben. Er zijn al echte oplossingen voor eenzaamheid onder ouderen. De ouderen krijgen dan een huisdier waar zij voor kunnen zorgen. Deze kikker kan daaronder vallen omdat een ouder persoon de kikker levend wil houden en dan een huisdier heeft waar zij voor kunnen. Ten tweede is het een artificial creature omdat het overeenkomt met de echte wereld. Wij willen sensoren gebruiken waar een kikker in hun echte leven ook mee te maken zou krijgen. Net zoals de winterslaap en de kloppingen van het hart. Wij hebben geprobeerd het te laten lijken op het echte leven.
+                </p>
                 
-                <h4>Stap 1: Sensoren</h4>
-                <p>Wij zijn begonnen met uitzoeken welke sensoren we willen gebruiken, en hoe ze werken. Hieronder de foto's van deze stap.</p>
+                <h3>2. Sensoren</h3>
+                <p>De eerst paar dagen van onze labweken stonden in het thema van sensoren. Wij zijn gaan kijken naar welke sensoren relevant zijn voor ons project, hoe deze werken en hoe we deze kunnen implementeren.</p>
                 
+                <h4>Sensor 1: LCD module &amp; Potentiometer</h4>
+                <p>Het idee bij de LCD module was om op het scherm te laten zien of alle condities voldaan waren, of juist niet. De potentiometer hebben wij gebruikt om de helderheid van het LCD scherm aan te passen. Uiteindelijk kwamen er twee problemen kijken bij de LCD module. Ten eerste was het niet relevant voor ons project, omdat wij al op twee andere manier feedback gaven aan de gebruiker (via licht en de hartslag zelf) en het nam enorm veel ruimte op van de Arduino. Om deze redenen hebben wij besloten het LCD scherm niet te gaan gebruiken.</p>
                 <figure>
-                    <img src="images/Project_Sensoren1.jpeg" alt="Sensoren 1" />
-                </figure>
-                <figure>
-                    <img src="images/Project_Sensoren2.jpeg" alt="Sensoren 2" />
-                </figure>
-                <figure>
-                    <img src="images/Project_Sensoren3.jpeg" alt="Sensoren 3" />
-                </figure>
-                <figure>
-                    <img src="images/Project_Sensoren4.jpeg" alt="Sensoren 4" />
-                </figure>
-                <figure>
-                    <img src="images/Project_Sensoren5.jpeg" alt="Sensoren 5" />
+                    <img src="images/Project_Sensoren1.jpeg" alt="LCD module & Potentiometer" />
                 </figure>
                 
-                <h4>Stap 2: Alles bij elkaar</h4>
-                <p>Nadat wij hebben rondgespeeld en getest met sensoren zijn we alle sensoren op een Arduino gaan zetten. Hierbij dachten we nog niet zozeer naar over het visuele.</p>
+                <h4>Sensor 2: Water level sensor</h4>
+                <p>De water level sensor was een nieuwe sensor voor ons, die wij ook in de les nog niet hadden gebruikt. Deze sensor kan je onder water doen en dan geeft deze in de vorm van een getal aan hoe nat het is. Hoe verder onder water de sensor is hoe hoger het getal zal zijn. Wij hebben besloten deze sensor te gebruiken in ons project omdat het past bij een kikker. Wanneer het te nat was zou de hartslag van de kikker stoppen.</p>
                 <figure>
-                    <img src="images/Project_AlmostFinished1.jpeg" alt="Alle sensoren in 1 circuit" />
+                    <img src="images/Project_Sensoren4.jpeg" alt="Water level sensor" />
                 </figure>
                 
-                <h4>Stap 3: Visueel</h4>
-                <p>Zoals hiervoor al gezegd hebben wij gekozen voor een kikker omdat we hier makkelijk een hartslag (en eventueel zelfs een ademhaling) in kunnen laten zien.</p>
+                <h4>Sensor 3: Temp and humidity sensor</h4>
+                <p>Deze sensor werkte voor ons helaas niet. Het zou in de gaten moeten houden hoe warm het was en wat de vochtig het zou zijn. Gelukkig hadden we voor beide functies van deze sensor een aparte sensor. Het was wel gaaf geweest om hem werkend te krijgen maar wij vermoeden dat wij hem al defect hebben ontvangen.</p>
+                
+                <h4>Sensor 4: Proximity sensor</h4>
+                <p>De proximity sensor is een sensor die wij in de les ook hebben gebruikt. De proximity sensor houdt in de gaten hoe dichtbij een object is. Hier kan je dan een getal uit laten komen en kan je zien hoe dichtbij het object ook echt is. Wij hebben besloten ook deze sensor te gebruiken voor ons project. Wanneer er iemand te dichtbij de kikker komt stop de hartslag.</p>
+                <figure>
+                    <img src="images/Project_Sensoren3.jpeg" alt="Proximity sensor" />
+                </figure>
+                
+                <h4>Sensor 5: Temperatuursensor</h4>
+                <p>De temperatuursensor is wederom een sensor waar wij tijdens de les al mee hebben geoefend. Deze sensor houdt in de gaten hoe warm het is. Deze sensor hebben wij in ons project gebruikt. Wanneer het warm genoeg is voor de kikker heeft hij zijn hartslag.</p>
+                <figure>
+                    <img src="images/Project_Sensoren5.jpeg" alt="Temperatuur sensor" />
+                </figure>
+                
+                <h4>Sensor 6: Relay &amp; Hydraulische pomp</h4>
+                <p>De relay hebben wij moeten gebruiken in combinatie met de hydraulische pomp, omdat wij anders iets zouden doorbranden. Uiteindelijk door een aantal draden met elkaar verbonden te hebben hebben wij de hydraulische pomp werkend gekregen. De hydraulische pomp functioneert perfect als een hartslag door het tempo dat wij het gaven. Door het als een hart te laten klinken konden wij dit gebruiken als de hartslag voor de kikker.</p>
+                
+                <h3>3. Alles bij elkaar brengen</h3>
+                <p>Nadat wij klaar waren met kijken naar alle sensoren zijn wij naar het concept gaan kijken en hebben wij de condities bepaald wanneer de kikker een hartslag heeft. Ten eerste moet het warm genoeg zijn voor de kikker om niet in zijn winterslaap te gaan. Ten tweede moet er niemand dichtbij zijn, oftewel geen roofdier in de buurt van de kikker. En ten derde moet het niet te nat zijn, de kikker moet in goede omstandigheden wakker kunnen zijn.
+                <br/> <br/>
+                De eerste stap na het experimenteren was alle sensoren op dezelfde Arduino zetten en de code combineren in 1 script. Om te controleren of alles goed werkte hebben wij twee lampjes, een groene en een rode, bevestigt en een functie geschreven dat wanneer de condities goed waren het groene lampje brand, en wanneer een conditie nog goed was er een rood lampje brand.
+                <br/> <br/>
+                Nadat wij een aantal tests hadden gedaan toen alles aan elkaar verbonden was was het tijd om de hydraulische pomp hieraan te verbinden. De lampjes waren ook nog bevestigt voor test doeleinden. Nadat wij de relay en de hydraulische pomp hadden verbonden hebben we de code geschreven zodat de hydraulische pomp het alleen maar doet wanneer alle condities goed zijn. Nadat wij alles hebben getest hebben wij een kikker knuffel besteld en zijn wij gaan nadenken over hoe wij dit project willen gaan visualiseren.
+                </p>
+                <figure>
+                    <img src="images/Project_AlmostFinished1.jpeg" alt="Sensoren met de hydraulische pomp" />
+                </figure>
+                
+                <h3>4. Visualisatie</h3>
+                <p>Wanneer alles werkte en de kikker binnen was gekomen hebben wij een gat aan de achterkant gemaakt om de hydraulische pomp in de kikker te stoppen. Hier kwamen wij erachter dat als er ook maar een kleine druk tegen de pomp aan zat de pomp het niet meer zou doen. Daarom hebben wij een stuk karton als cylinder in de kikker gestopt waar de hydraulische pomp in kon liggen. Wanneer het hele script werkend was hoorde je duidelijk de hartslag en zag je zelf beweging in de kikker. Het uiteindelijke resultaat is te zien in <a href="https://youtu.be/iKxx494k6vc">deze video.</a></p>
                 <figure>
                     <img src="images/Project_AlmostFinished2.jpeg" alt="Alle sensoren in 1 circuit met de kikker" />
                 </figure>
                 
-                <h4>Stap 4: Finishing touches</h4>
-                <p>We hebben ervoor gezorgd dat de hydraulische pomp goet in de kikker zit. Zie de video hieronder voor het eindresultaat.</p>
-                <iframe src="https://youtu.be/iKxx494k6vc"></iframe>
-                <p>Als de video niet werkt klik <a href="https://youtu.be/iKxx494k6vc">hier</a></p>
+                <h3>5. Expo</h3>
+                <p>Tijdens de expo hebben wij onze artificial creature gepresenteerd. Iedereen zat goed op te letten en zij konden de hartslag van de kikker horen toen hij die had. Wij kregen van onze medestudenten positieve feedback, en ze zeiden dat ze het een grappig en leuk project vonden. Ook vonden ze de kikker zelf leuk en schattig en zouden ze er wel voor zorgen als zij hem zelf hadden. Wanneer wij gingen stemmen voor het beste project binnen onze groep kregen wij zelfs enkele stemmen. Helaas hadden we niet gewonnen.</p>
+                
+                <h3>6. Reflectie</h3>
+                <p>Zelf vond ik het een leuk project om aan te werken. Arduino is wel een technologie die ik interessant vind, maar zelf niet zomaar mee zou gaan spelen. Ik vind zelf dat wij het project iets meer hadden kunnen uitschrijven vanaf het begin, en wellicht meer sensoren erin hadden kunnen verwerken. Ook zaten alle sensoren aan de buitenkant van de kikker. Als wij meer tijd hadden gehad hadden wij eventueel de sensoren kunnen verwerken in de kikker. Ook had ik zelf heel graag een extra feedback punt voor de gebruiker erin willen verwerken. Wij hadden bijvoorbeeld het idee om een simpele mobiele app te maken waar je kon zien welke conditie wel voldoet en welke niet. Of het LCD scherm waar wij mee hebben geëxperimenteerd. Natuurlijk had ik veel meer willen doen maar ik ben tevreden overh het eindresultaat.</p>
+                
                 
             </section>
         </main>

@@ -101,9 +101,11 @@ body, html {
 }
 
 #main-section p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.3em;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: left;
 }
 
 #main-section a {
