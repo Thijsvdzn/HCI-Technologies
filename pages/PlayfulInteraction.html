@@ -30,48 +30,55 @@
             
             <section id="main-section">
                 <h2>Playful Interacion Topic</h2>
-                <p>Voor het onderwerp playful interaction heb ik opdrachten gemaakt in Processing. Dit is een programma waar je makkelijk hele simpele spelletjes en programma's kan maken. Alle relevante opdrachten staan hieronder beschreven. Ook heb ik een topic assignment gemaakt.</p>
+                <p>Het vierde en laatste onderwerp wat wij hebben behandeld bij HCI is playful interaction. Playful interaction is een techniek waar gebruikers op een speelse manier een actie kunnen voltooien. Playful interaction kan op heel veel plekken worden toegepast om van een saai proces een heel leuk proces te maken. Bijvoorbeeld in een museum is het voor kinderen veel leuker om via een digitaal (interactief) spel kennis te vergaren, dan te kijken naar een muur tekst en een plaatje.</p>
                 
                 <h3>2f</h3>
-                <p>Voor opdracht 2f heb ik verschillende vormen die verschillende groottes en kleuren hebben neerzetten in mijn programma.</p>
+                <p>Voor opdracht 2f heb ik verschillende vormen die verschillende groottes en kleuren hebben neerzetten in mijn programma. Dit is de eerste opdracht van Computer Vision dus ik zal alle code uitleggen. size(200,200) zorgt ervoor dat er een canvas komt die 200 bij 200 pixels is. Hier staat er ellipseMode, deze functie bepaald waar de cirkel terecht komt. Hierna staat er fill(), dit zorgt ervoor dat de cirkel een kleur krijgt. noStroke() zorgt ervoor dat de cirkels een uitlijning hebben. ellipse() is de cirkel zeld, waar de waardes te maken hebben met de plaatsing en de hoogte en breedte.</p>
                 <figure>
                     <img src="../images/PlayfulInteraction_2f.png" alt="Code opdracht 2f" />
                 </figure>
                 
                 <h3>2i</h3>
-                <p>Voor opdracht 2i heb ik nog meer verschillende vormen moeten maken.</p>
+                <p>Voor opdracht 2i heb ik nog meer verschillende vormen moeten maken. De code lijkt heel erg op wat er bij opdracht 2f gebeurt, alleen in plaats van ellipse zijn er ook triangle, rect en quad. Ook staan er meer waardes bij om te bepalen waar de vorm staat en hoe groot en breed deze is.</p>
                 <figure>
                     <img src="../images/PlayfulInteraction_2i.png" alt="Code opdracht 2i" />
                 </figure>
                 
                 <h3>2o</h3>
-                <p>Voor opdacht 2o moest ik een cirkel maken die de muis volgde, en een lijntje die aan deze cirkel vast zat.</p>
+                <p>Voor opdacht 2o moest ik een cirkel maken die de muis volgde, en een lijntje die aan deze cirkel vast zat. De nieuwe code die hier opvalt zijn de functies mouseX en mouseY. Deze zorgen ervoor dat de code in de gaten houdt waar mijn muis is, en deze waardes gebruikt het om de cirkel ergens op het canvas te plaatsen.</p>
                 <figure>
                     <img src="../images/PlayfulInteraction_2o.png" alt="Code opdracht 2o" />
                 </figure>
                 
                 <h3>3b</h3>
-                <p>Voor opdracht 3b moest ik Processing koppelen aan Arduino. Hier moest ik een script maken dat wanneer mijn muis over de vorm ging, er een LED aangaat op mijn Arduino</p>
+                <p>Voor opdracht 3b moest ik Processing koppelen aan Arduino. Hier moest ik een script maken dat wanneer mijn muis over de vorm ging, er een LED aangaat op mijn Arduino. Het Arduino script ziet er heel bekend uit van de Arduino workshop, dus voor uitleg van deze code kan je het beste naar Wearables of Artificial Creatures. De processing code is ook vrij simpel. In de void setup() staat code om te verbinden met de Arduino. Hierna in void draw() staat een if statement om te controlleren of mijn muis in de cirkel zit, en als deze in de cirkel zit stuurt de code de letter H naar de Arduino. Daardoor weet de Arduino dat het de LED uit moet zetten door een if-statement.</p>
+                <p>Klik <a href="https://youtu.be/QRxt3_HFEP0" target="_blank">hier</a> voor de video van deze opdracht</p>
                 <figure>
                     <img src="../images/PlayfulInteraction_3b.png" alt="Code opdracht 3b" />
                 </figure>
-                <iframe src="https://youtu.be/QRxt3_HFEP0"></iframe>
-                <p>Als de video niet werkt klik <a href="https://youtu.be/QRxt3_HFEP0">hier</a></p>
                 
                 <h3>5c</h3>
-                <p>Voor opdracht 5c heb ik een script gemaakt die een random kleur laat zien die te maken heeft met waar mijn muis op het scherm is geplaatst.</p>
+                <p>Voor opdracht 5c heb ik een script gemaakt die een random kleur laat zien die te maken heeft met waar mijn muis op het scherm is geplaatst. De code lijkt erg op wat er allemaal al eerder is gebruikt. Alleen de functie random() is nieuw. Deze functie kiest een willekeurig getal tussen 0 en de waarde die ik meegeef, hier dus 255.</p>
                 <figure>
                     <img src="../images/PlayfulInteraction_5C.png" alt="Code opdracht 5c" />
                 </figure>
                 
                 <h3>5e</h3>
-                <p>Huts</p>
+                <p>Voor opdracht 5E heb ik geëxperimenteerd met een voorbeeld (deze is gegeven in de workshop). De voorbeelden hadden allemaal te maken met camera effects. Er was een voorbeeld waar je camera verandert in allemaal individuele gekleurde bolletjes. Ik heb naar de code gekeken en er vierkantjes van gemaakt.</p>
+                <p>Klik <a href="https://youtu.be/uIlBVntOabk" target="_blank">hier</a> voor de video van deze opdracht</p>
                 <figure>
-                    <img src="../images/" alt="Code opdracht 5e" />
+                    <img src="../images/PlayfulInteraction_5E_1.png" alt="Code opdracht 5e" />
+                </figure>
+                <figure>
+                    <img src="../images/PlayfulInteraction_5E_2.png" alt="Resultaat opdracht 5e" />
+                </figure>
+                <figure>
+                    <img src="../images/PlayfulInteraction_5E_3.png" alt="Resultaat opdracht 5e" />
                 </figure>
                 
                 <h3>Topic assignment</h3>
-                <p>Voor de topic assignment van Playful Interaction heb ik ik een nieuw concept moeten bedenken voor een sociale playful interface om positief gedrag aan te sporen in de Haagse Hogeschool. Voor de tweede opdracht heb ik onderzoek moeten doen naar een al bestaand project/product. Als derde opdracht heb ik moeten reflecteren op dit onderwerp.</p>
+                <p>Na de computer vision opdrachten zijn er drie assignment. De eerste assignment is een opdracht om een playful interaction concept te bedenken voor de Haagse Hogeschool. De tweede assignment is om research te doen naar al bestaande oplossingen van playful interaction. De derde assignment is om te reflecteren op dit onderwerp.</p>
+                
                 
                 <h4>Assignment A: A new playful interaction concept</h4>
                 <p>Voor assignment A ga ik een concept bedenken voor een sociale playful interface in de Haagse Hogeschool om positief gedrag aan te sporen. 

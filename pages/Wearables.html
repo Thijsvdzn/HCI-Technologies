@@ -30,57 +30,66 @@
             
             <section id="main-section">
                 <h2>Wearables Topic</h2>
-                <p>Voor het onderwerp Wearables hebben wij geoefend met Arduino. Hieronder staan de relevante opdrachten voor dit onderwerp met uitleg, code en een video.</p>
+                <p>Het tweede onderwerp wat wij hebben behandeld bij HCI is wearables. Wearables zijn slimme apparaten die dichtbij of op de huid gedragen worden. Hier kunnen ze verschillende functies hebben. Ze kunnen bijvoorbeeld informatie verkrijgen, analyseren en verzenden wanneer dit relevant is (denk aan een smartwatch). Maar een wearable kan bijvoorbeeld ook heel praktisch zijn, zoals een gehoorapparaat. Tegenwoordig zijn er veel verschillende wearable producten, van horloges tot schoenen.</p>
                 
-                <h3>Opdracht 3c</h3>
-                <p>De opdracht was om 2 verschillende LEDs te laten knipperen. Bij 3a en 3b moest ik de 2 LEDs tegelijkertijd en afwisselend laten knipperen. Bij opdracht 3x was het de bedoeling om de groene LED twee keer zo snel te laten knipperen als de gele LED</p>
+                <h3>Opdracht 3b</h3>
+                <p>De opdracht was om 2 verschillende LEDs afwisselend te laten knipperen. Bij 3a moest ik de 2 LEDs tegelijkertijd laten knipperen. Veel van deze code functioneert als een basis voor de rest dus ik zal hier even alles lijn voor lijn uitleggen. de "int greenLedPin = 10;" refereert naar pin 10, dis verbonden staat met een LED. In de void setup zie je 2x pinMode staat. Hier pakt de code de Arduino en definieert de LEDs. Hierna in de void loop functioneren de analogWrite als een functie om de LED aan (HIGH) of uit (LOW) te zetten. De delay zorgt ervoor dat de code eerst een seconde moet wachten.</p>
+                <p>Klik <a href="https://youtu.be/G-h8HbWgT2Q" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/3B/3B.ino" download>hier</a> de code</p>
                 <figure>
-                    <img src="../images/Wearables_3c.png" alt="Code opdracht 3c" />
+                    <img src="../images/Wearables_3b.png" alt="Code opdracht 3b" />
                 </figure>
-                <p>Klik <a href="https://youtu.be/rBQebPkFBxk" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/3B.ino" download>hier</a> de code</p>
+                
                 
                 <h3>Opdracht 4c</h3>
-                <p>Opdracht 4c had ook weer te maken met LEDs. Nu moest ik code schrijven zodat de LEDs automatisch aan en uit gingen. Ze moesten aan en uit gaan door een fade.</p>
+                <p>Opdracht 4c had ook weer te maken met LEDs. Nu moest ik code schrijven zodat de LEDs automatisch aan en uit gingen. Ze moesten aan en uit gaan door een fade. Veel van deze code lijkt om die van opdracht 3b. Nieuw hierin is de for-loop. De for loop kijkt naar de int brightness en blijft de loop runnen totdat brigthness boven de 256 is. Door de natuur van de void loop gaat deze for-loop steeds weer van 0 naar 256.</p>
+                <p>Klik <a href="https://youtu.be/CIEPufa3lc0" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/4C.ino" download>hier</a> de code</p>
                 <figure>
                     <img src="../images/Wearables_4c.png" alt="Code opdracht 4c" />
                 </figure>
-                <p>Klik <a href="https://youtu.be/CIEPufa3lc0" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/4C.ino" download>hier</a> de code</p>
+                
                 
                 <h3>Opdracht 6c</h3>
-                <p>Opdracht 6c lijkt op opdracht 4c, aleen dan moest ik de LEDs bedienen door middel van een potentiometer. Een potentiometer is een soort staafje die je kan ronddraaien. Zo kan je dus de sterkte van een LED bedienen.</p>
+                <p>Opdracht 6c lijkt op opdracht 4c, aleen dan moest ik de LEDs bedienen door middel van een potentiometer. Een potentiometer is een soort staafje die je kan ronddraaien. Zo kan je dus de sterkte van een LED bedienen. Bij deze opdracht komt nieuwe code te pas, namelijk "Serial.begin(9600)" en de map functie. De serial.begin zorgt ervoor dat de seriële monitor werkt, zodat ik kan testen of de functie werkt. De map() functie zet de 9600 om in een getal waar de LED iets mee kan.</p>
+                <p>Klik <a href="https://youtu.be/25HMgAczY9o" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/6C/6C.ino" download>hier</a> de code</p>
                 <figure>
                     <img src="../images/Wearables_6c.png" alt="Code opdracht 6c" />
                 </figure>
-                <p>Klik <a href="https://youtu.be/25HMgAczY9o" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/6C.ino" download>hier</a> de code</p>
+                
                 
                 <h3>Opdracht 7a</h3>
-                <p>Bij opdracht 7a ben ik gaan werken met een LED Matrix. Dit is een grid van een heel aantal LEDs. Hierbij was het de opdracht om een smiley te laten zien die van boos naar blij ging.</p>
+                <p>Bij opdracht 7a ben ik gaan werken met een LED Matrix. Dit is een grid van een heel aantal LEDs. Hierbij was het de opdracht om een smiley te laten zien die van boos naar blij ging. De code hier is heel repetitief, en kijkt naar iedere rij en row binnen de LED matrix en zet deze aan of uit.</p>
+                <p>Klik <a href="https://youtu.be/CZbP1e2h2_8" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/7A.ino" download>hier</a> de code</p>
                 <figure>
                     <img src="../images/Wearables_7a.png" alt="Code opdracht 7a" />
                 </figure>
-                <p>Klik <a href="https://youtu.be/CZbP1e2h2_8" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/7A.ino" download>hier</a> de code</p>
+                
                 
                 <h3>Opdracht 8</h3>
-                <p></p>
+                <p>Voor opdracht 8 gebruiken we grotendeels de code van opdracht 6c. In plaats van de potentiometer gebruik ik nu een lichtsensor. Helaas is werkt de lichtsensor niet perfect, dus op de video is er niet veel verschil te zien (vertrouw me, het verschil is er als je goed kijkt). Voor de opdracht moet de groene LED minder gaan schijnen hoe minder licht er is, en de rode andersom.</p>
+                <p>Klik <a href="https://youtu.be/1GzxRY8pgJY" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/8.ino" download>hier</a> de code</p>
                 <figure>
-                    <img src="../images/" alt="Code opdracht 8" />
+                    <img src="../images/Wearables_8.png" alt="Code opdracht 8" />
                 </figure>
-                <p>Klik <a href="" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/" download>hier</a> de code</p>
+                
                 
                 <h3>Opdracht 9c</h3>
-                <p></p>
+                <p>Voor opdracht 9a Heb ik een speaker verboden aan de Adruino die een kleine melodie afspeelt. Met dezelfde installatie heb ik een sirene gemaakt voor opdracht 9c. De sirene werkt door een for-loop. Om de speaker te laten werken gebruik ik de tone() functie.</p>
+                <p>Klik <a href="https://youtu.be/oFF5AzRLQjU" target="_blank">hier</a> voor de video.</p>
+                <p>Download <a href="../documents/9C.ino" download>hier</a> de code</p>
                 <figure>
-                    <img src="../images/" alt="Code opdracht 9c" />
+                    <img src="../images/Wearables_9.png" alt="Code opdracht 9c" />
                 </figure>
-                <p>Klik <a href="" target="_blank">hier</a> voor de video.</p>
-                <p>Download <a href="../documents/" download>hier</a> de code</p>
+                
+                
                 
                 <h3>Topic Assignment</h3>
+                <p>Na de Arduino opdrachten heb ik een case beschreven. Deze case is een concept voor een wearable technologie waar de gebruiker hun gevoelens laat zien via hun brainwaves. Na deze case heb ik research gedaan naar een aantal bestaande wearable technologieën.</p>
+                
                 <p>Voor de topic assignment heb ik een concept moeten bedenken voor een wearable die emotie toont. Deze pakt je emotie (vanuit je brein) en toont dit op een manier. Hiernaast heb ik ook wat onderzoek gedaan naar bestaande producten in dit werkveld.</p>
                 
                 <h4>Case: Show your feelings using brainwaves</h4>
@@ -104,6 +113,11 @@
                 <figure>
                     <img src="../images/TopicAssignmentWearables3.png" alt="Pomocup" />
                 </figure>
+                
+                <h4>Reflectie</h4>
+                <p><strong>Wat vond je van het topic?</strong> Van alle topics vind ik zelf deze het minst interessant. Ik vind wel de oplossingen die er al bestaan heel gaaf om te zien. Er zijn wearables waarvan ik geeneens wist dat dat kon. De lessen zelf waren wel heel interessant, en ik heb er zeker wat van opgestoken.</p>
+                <p><strong>Hoe zie je applicaties en de toekomst van dit?</strong> Ik zie wearables steeds meer mainstream worden in de toekomst. Het is echt een opkomende techniek waar nog een gigantisch potentieel in zit. Ik zie in de toekomst hele gave dingen als de evolutie ervan de goede kant op gaat.</p>
+                <p><strong>Heeft het topic je verwachtingen tegemoet gekomen?</strong> Ja. Zelf had ik al minimale kennis van wearables. Toch heb ik zeker wat geleerd van de les en vooral van de workshop.</p>
             </section>
         </main>
     </body>
